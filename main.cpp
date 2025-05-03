@@ -25,7 +25,7 @@ void uartTask();
 void pcSerialComStringWrite(const char* str);
 char pcSerialComCharRead();
 
-float analogReadingScaledWithTheLM35Formula(float analogReading);;
+float analogReadingScaledWithTheLM35Formula(float analogReading);
 float celsiusToFahrenheit(float tempInCelsiusDegrees);
 float analogValueToFahrenheit(float analogValue);
 float potentiometerScaledToCelsius(float analogValue);
